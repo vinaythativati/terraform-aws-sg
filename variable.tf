@@ -10,10 +10,10 @@ variable "sg_name" {
     type = string
 }
 
-varaible "vpc_id" {
+variable "vpc_id" {
     type = string
 }
 
-varaible "sg_tags" {
+variable "sg_tags" {
     default = {}
 }
