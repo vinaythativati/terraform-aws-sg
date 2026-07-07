@@ -14,6 +14,6 @@ resource "aws_security_group" "main" {
 
   tags =merge(
     var.sg_tags,
-    var.common_tags,
+    local.common_tags,
   )
 }
